@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $('.instructions').fadeOut(6000);
     $('.ryu')
         .mouseenter(function () {
             $('.ryu .ryu-still').hide();
