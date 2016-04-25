@@ -15,7 +15,7 @@ $(document).ready(function () {
             $('.ryu .ryu-still').hide();
             $('.ryu .ryu-throwing').show();
             $('.hadouken').finish().show().animate(
-                { 'left': '1020px' },
+                { 'left': '1220px' },
                 500,
                 function () {
                     $(this).hide();
@@ -43,11 +43,11 @@ $(document).ready(function () {
             $('.hulk-ryu .ryu-still').hide();
             $('.hulk-ryu .ryu-throwing').show();
             $('.hulk-hadouken').finish().show().animate(
-                { 'left': '1020px' },
+                { 'left': '220px' },
                 500,
                 function () {
                     $(this).hide();
-                    $(this).css('left', '520px');
+                    $(this).css('left', '1020px');
                 }
             );
         })

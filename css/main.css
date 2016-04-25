@@ -5,8 +5,8 @@ body {
 .main {
     background-color: white;
     margin-top: 110px;
-    padding-left: 100px;
-    min-width: 1200px;
+    /* padding-left: 100px; */
+    min-width: 1350px;
     height: 500px;
     position: relative;
     z-index: 1;
@@ -20,6 +20,12 @@ body {
 .hulk-ryu {
     -webkit-filter: hue-rotate(90deg);
     filter: hue-rotate(90deg);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+
+    position: absolute;
+    top: 10px;
+    right: 5%;
 }
 
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
@@ -65,22 +71,24 @@ body {
 
 .hulk-hadouken {
     background-image: url('../images/hadouken.gif');
-    -webkit-filter: hue-rotate(45deg);
-    filter: hue-rotate(45deg);
+    -webkit-filter: hue-rotate(180deg);
+    filter: hue-rotate(60deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
     width: 156px;
     height: 90px;
     display: none;
     float: left;
     position: absolute;
     z-index: 10;
-    top: 670px;
-    left: 520px;
+    top: 170px;
+    left: 1020px;
 }
 
 .instructions {
     position: absolute;
     top: 10px;
-    right: 5%;
+    right: 30%;
     width: 600px;
     font-family: cursive;
     font-size: 2.25rem;
